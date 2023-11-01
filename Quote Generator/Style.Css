@@ -1,0 +1,20 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+#text{
+    font-weight: bold;
+    
+}
+#container{
+    color: white;
+    margin: 100px auto;
+    border: 1px solid white;
+    padding: 40px;
+    border-radius: 10px;
+}
+    
