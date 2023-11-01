@@ -7,11 +7,11 @@
             "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
             "Do not go where the path may lead, go instead where there is no path and leave a trail. - Ralph Waldo Emerson",
         ];
-        function generateRandomQuote() {
+        function Run() {
             var randomIndex = Math.floor(Math.random() * quotes.length);
             document.getElementById("quote").textContent = quotes[randomIndex];
         }
         
-        document.getElementById("generate").addEventListener("click", generateRandomQuote);
+        document.getElementById("generate").addEventListener("click", Run);
 
-        generateRandomQuote();
+        Run();
