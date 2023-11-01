@@ -1,0 +1,14 @@
+table{
+    margin: 50px auto;
+   }
+    button{
+        height: 65px;
+       width: 70px; 
+       text-align: center;
+       position: relative;
+    }
+    input{
+        height: 55px;
+        width: 300px;
+        font-size: 40px;
+    }
