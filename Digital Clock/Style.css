@@ -1,0 +1,29 @@
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .container {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            width: 300px;
+            /* text-align: center; */
+            margin: 100px auto;
+            border: 5px solid white;
+            border-radius: 10px;
+
+        }
+
+        #print {
+            color: white;
+            background-color: black;
+            font-size: 36px;
+            font-family: sans-serif;
+        }
